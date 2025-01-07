@@ -1,6 +1,20 @@
 {
   "short_name": "Intern",
   "name": "Intern Med App",
+  "description": "Med app that searches a database of medicines to give hints to user.",
+  "id": "1.1",
+  "orientation": "portrait",
+  "launch_handler": {
+    "client_mode": "auto"
+},
+"screenshots" : [
+  {
+    "src": "screenshot.png",
+    "sizes": "1280x720",
+    "type": "image/jpg",
+    "platform": "wide"
+  }
+],
   "icons": [
     {
       "src": "favicon.ico",
