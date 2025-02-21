@@ -78,7 +78,7 @@ define(['./workbox-ab4816ec'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "_astro/_slug_.astro_astro_type_script_index_0_lang.CZLCoV3H.js",
+    "url": "_astro/_slug_.astro_astro_type_script_index_0_lang.CyVq5DoR.js",
     "revision": null
   }, {
     "url": "_astro/_slug_.juwcgmNr.css",
@@ -90,7 +90,7 @@ define(['./workbox-ab4816ec'], (function (workbox) { 'use strict';
     "url": "_astro/client-v17.C5iNQFmU.js",
     "revision": null
   }, {
-    "url": "_astro/index.astro_astro_type_script_index_1_lang.hW_IBaPY.js",
+    "url": "_astro/index.astro_astro_type_script_index_1_lang.BFCWBPmA.js",
     "revision": null
   }, {
     "url": "_astro/index.BYcfAzl2.js",
@@ -100,133 +100,133 @@ define(['./workbox-ab4816ec'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "abdominal-pain/index.html",
-    "revision": "b099bee78c9b8efee1f7e975ee19d1a8"
+    "revision": "bd33de16fb751d855fe4617e28828f05"
   }, {
     "url": "acetylcysteine/index.html",
-    "revision": "6354ab9629cd74481508f1d05be6da71"
+    "revision": "dbd6e1500c37b1e853fe9355312b4757"
   }, {
     "url": "acne-vulgaris/index.html",
-    "revision": "e5c0c6cb6df1fc546985c9fbbc96d6f7"
+    "revision": "dd1a2c4a8151e09f38472031bdb62566"
   }, {
     "url": "allergy/index.html",
-    "revision": "35d62cb5a61b31f9982dc70a485392fa"
+    "revision": "3659a07065707f6c0e7dec19b1210aaf"
   }, {
     "url": "aluminiumhydroxide/index.html",
-    "revision": "f2e8438f0f869da80cadc13656fbde63"
+    "revision": "5f59a46b23e6538d9b867fac32ecc3a6"
   }, {
     "url": "ambroxol/index.html",
-    "revision": "cb23f0fb3896389cd11e511d11039a30"
+    "revision": "08ea4b3b5b954c9851f2f80a106f2443"
   }, {
     "url": "anal-itching/index.html",
-    "revision": "10a1a3c7da4d1cd5a5e2e9dd0a73cb6d"
+    "revision": "21a2e35b28d035921680b3c8d7718fe8"
   }, {
     "url": "analgesics-nsaids/index.html",
-    "revision": "d2e03f917bc8da8eb4c17e8ef096668d"
+    "revision": "3bd9aa71eba0fe86ac0262b482e5e168"
   }, {
     "url": "anorexia/index.html",
-    "revision": "4f0bd92a794a283e79fcd4740692f1c6"
+    "revision": "ef508b7dfd9a675f4c69d2f2416d040d"
   }, {
     "url": "antacids/index.html",
-    "revision": "f69f02f31c4bcfb669dfd24f6ffc749b"
+    "revision": "7301b698ad014f5d4e467a1ab2582c2f"
   }, {
     "url": "antibiotics-in-children/index.html",
-    "revision": "6f81b4775a3be9a3059a401e72f59b9c"
+    "revision": "416be0163b626324c58de3c54bfbf99d"
   }, {
     "url": "antibiotics/index.html",
-    "revision": "8faa11f39d51eb0c89aa6a922fa17afa"
+    "revision": "83a03082ee08d9eb378cd9ea5257b0c2"
   }, {
     "url": "antipyretics/index.html",
-    "revision": "b8a8df51c706c8e29d9682470267a12f"
+    "revision": "6c80a8c0da3c213ab091fd87e7ade8e8"
   }, {
     "url": "antiulcerants/index.html",
-    "revision": "1c53ea794aa87261a5c04950c92446e5"
+    "revision": "f93057af58b86e946cd6c29be09e4c27"
   }, {
     "url": "apthous-ulcer/index.html",
-    "revision": "d68945857437d5c44ace45ddf14b0223"
+    "revision": "a59a7a0746df223138bb8bd4b6c9f219"
   }, {
     "url": "athlete's-foottinea-pedis/index.html",
-    "revision": "24d403369525f7b97260849f327aa627"
+    "revision": "2e272625e0fd8a940add6b37b4164cbb"
   }, {
     "url": "back-pain/index.html",
-    "revision": "c7d433226b508bca442d9f3c8da4b466"
+    "revision": "088cc1c38fabab9826c0d080180f9d9c"
   }, {
     "url": "bitter-taste-in-mouth/index.html",
-    "revision": "924339e328a652ef6b8f1c4d401a4ff3"
+    "revision": "5dc9d01c87610daf063d837c7f9b0a37"
   }, {
     "url": "bromhexine/index.html",
-    "revision": "4efd4966a392d2e7d9b40a47bbae65f3"
+    "revision": "b7220b0473ab8601304c4a00aa60fee1"
   }, {
     "url": "c.omeprazole/index.html",
-    "revision": "43de48ae2169b91bb4c4ebe376faec57"
+    "revision": "60f902f3348e65a9a41991d24aceca67"
   }, {
     "url": "caries-tooth/index.html",
-    "revision": "89facb73a668264c91a1ba18f47fe697"
+    "revision": "46fd672948f375efc5ca50fae59bf14c"
   }, {
     "url": "chickenpoxvaricella/index.html",
-    "revision": "46b964c55cb999af5d331face40fc132"
+    "revision": "47de603f9a192c905c88f2657a209aa1"
   }, {
     "url": "chlorpheniraminemaleate/index.html",
-    "revision": "b2ea47d270b4ee5b106f96a2782857a1"
+    "revision": "ebfaf7d3c341409541459ba0ac7191a9"
   }, {
     "url": "chronic-alcoholic-with-tremors/index.html",
-    "revision": "3069bcd65d53f121c0183859422a5442"
+    "revision": "216317345ebc26f3ecfa6e927a6bb16e"
   }, {
     "url": "cold-179,756/index.html",
-    "revision": "94445bcb6fabf8c7fc23647ded91a11e"
+    "revision": "787e0ab6a4b6f1914dea3b1cdff208bf"
   }, {
     "url": "cold+fever/index.html",
-    "revision": "ab3a81753b8cbab2b087a0fcb4d42892"
+    "revision": "1f6d7c7651ff8a3f43e4b2cca7e1c4f9"
   }, {
     "url": "conjuctivitis/index.html",
-    "revision": "37329bbed5b9372cb1ca2bac6719b512"
+    "revision": "5d6c934c9ad28a455d5911c9836e10b0"
   }, {
     "url": "constipation/index.html",
-    "revision": "be4a0aa067c8efcbfabefa7920e8aa01"
+    "revision": "a87fbe1f80de2fd2422e4b97392f0557"
   }, {
     "url": "contact-dermatitis/index.html",
-    "revision": "c2cf93223b91e49dc5e977c323be390e"
+    "revision": "6dc12041f8a96d3ac5811c747ecaadef"
   }, {
     "url": "convulsion-in-children/index.html",
-    "revision": "ee1a3fbead1c104a65424826611757e8"
+    "revision": "4a1e963487308419a62959e9ed6c62a7"
   }, {
     "url": "corns/index.html",
-    "revision": "668d6928ab1150a1e813db31e603210a"
+    "revision": "0dafac42c99d6961833fa304ee4e307c"
   }, {
     "url": "cough-238/index.html",
-    "revision": "00e7381dd0c52929bd0ed798af039e2c"
+    "revision": "1888261aa6d98680a59f80b7e34a8fca"
   }, {
     "url": "crying-infant/index.html",
-    "revision": "c4f0752db7ed42711a820a33c1cb139d"
+    "revision": "b7faaccabf7af9721a50e5b8bd448fe4"
   }, {
     "url": "dandruff/index.html",
-    "revision": "0ae51187b4d95e65f0c959d433bf162f"
+    "revision": "d18e5e26496cd7d067420774132c3657"
   }, {
     "url": "deworming/index.html",
-    "revision": "0faa69ccecb2607150eb04cb00cc55d4"
+    "revision": "41ef0d1efe67fb60a3c014b4d337f0fc"
   }, {
     "url": "dextromethorphan/index.html",
-    "revision": "00424712233c7334cb7a451876a6f115"
+    "revision": "3b127f14a1ebe058e4332189b29a303d"
   }, {
     "url": "discharge-pv/index.html",
-    "revision": "3d9496692a8e12402219243689de4bb3"
+    "revision": "a00485f3b57df4f427fcc24025686eaa"
   }, {
     "url": "dog-bite-rabies/index.html",
-    "revision": "9b3b781b73103233a09dd70f7d17d250"
+    "revision": "0b341e15c51f05509ca29790cabd2f03"
   }, {
     "url": "domperidone/index.html",
-    "revision": "d186245e267c04071f95ce1328c23231"
+    "revision": "41d345c904a6cc8372a2d54ef2af5024"
   }, {
     "url": "doxylamine/index.html",
-    "revision": "81911a1c1009bee784694fe0f7c162e7"
+    "revision": "61dd2907206ec78d283e331701a3f069"
   }, {
     "url": "drotaverine/index.html",
-    "revision": "f21f01e19416072f086db73491e06bc4"
+    "revision": "7d67e0cba3ec24aec48676f478832208"
   }, {
     "url": "dysmenorrhea/index.html",
-    "revision": "16556a8578dd8e754867ae3375f46403"
+    "revision": "d59c7b8a0c757761c7612e50e206f7dc"
   }, {
     "url": "epistaxis/index.html",
-    "revision": "6d73443908db65988b00bfa87cef61dd"
+    "revision": "a1f18e9a863f9ad403251c7d98f1e8b5"
   }, {
     "url": "favicon.ico",
     "revision": "da3f5ed9c9c5d581ce77e12704c98bd2"
@@ -235,49 +235,49 @@ define(['./workbox-ab4816ec'], (function (workbox) { 'use strict';
     "revision": "8c13f40658976ea1dfb8ba37a8be0e8d"
   }, {
     "url": "fever/index.html",
-    "revision": "d70064a45b56fb0698cbd2e1847d7de0"
+    "revision": "9cfcd6bf6eee0383699b15866feb4625"
   }, {
     "url": "flatulence-continous-belching/index.html",
-    "revision": "d44ab13ed07b1e15323b954882939879"
+    "revision": "9374d3c567d4322879d9a1fd78e1c8c0"
   }, {
     "url": "gemini/index.html",
     "revision": "cf2c60c067773123ae94d9b85a03452c"
   }, {
     "url": "guaiphensin/index.html",
-    "revision": "3337fb029cb424f63c47e062f6cd1cc1"
+    "revision": "8b9f2fbdcd79ad965dc081b4c8696597"
   }, {
     "url": "gum-abscess/index.html",
-    "revision": "a6271011986f872fbc56e8b5ce7682f8"
+    "revision": "563e98118188897b7c63c891f022b62e"
   }, {
     "url": "herpes-zoster/index.html",
-    "revision": "12781cfd2dcbeca49ecebd05036fdb66"
+    "revision": "cd32cdd700086e79452bd388cc3ba835"
   }, {
     "url": "hiccups/index.html",
-    "revision": "23925c2f7ccf04c1c9895458757bc32b"
+    "revision": "dc1e086d0570cf852a063f58c90c5d36"
   }, {
     "url": "hyperpigmentation-of-skin/index.html",
-    "revision": "314840a07384a0d16ea91a1a6ddc7207"
+    "revision": "7196208d895c1a1f459c7b39d19c83b0"
   }, {
     "url": "hypoglycemia/index.html",
-    "revision": "eb7cc1b36dad21ae310d1e0b8385c5fa"
+    "revision": "f0c9db63104de95277acf5b83a9a47a5"
   }, {
     "url": "hypotension/index.html",
-    "revision": "5e4719d0bf66714e14deee8bbb2a234c"
+    "revision": "3f8905708d1c1f85c3b4863d8809013f"
   }, {
     "url": "index.html",
-    "revision": "b75e51f9efeab27a7e6b240f3691a9e2"
+    "revision": "352d4af50e981f578a0bbe0fdc383d25"
   }, {
     "url": "inj.diclofenac/index.html",
-    "revision": "8684f5d4844d27295791e33b7181e820"
+    "revision": "405aff22b0fcfe1a0356c96a19db27d3"
   }, {
     "url": "inj.dicyclomine/index.html",
-    "revision": "28e1541d50857dae701575ae3d6e0808"
+    "revision": "3d6f00a58bd706c20e8ba8032a525aa0"
   }, {
     "url": "inj.pantoprazole/index.html",
-    "revision": "22eb7e63e21247181ce4ed750ad27edd"
+    "revision": "3a1fac1fbb98a2cf30d27fe321d0ad0b"
   }, {
     "url": "insomnia/index.html",
-    "revision": "18ee94851766d76c6039a3216fc48ac7"
+    "revision": "25c2163c3f3f55173fbfb405978ac631"
   }, {
     "url": "internlogo.png",
     "revision": "a1a6992015e334e07c83066e2b036f2b"
@@ -289,544 +289,544 @@ define(['./workbox-ab4816ec'], (function (workbox) { 'use strict';
     "revision": "917515db74ea8d1aee6a246cfbcc0b45"
   }, {
     "url": "loose-stoolsdiarrhea/index.html",
-    "revision": "312e9ca8e1e60e7157da64dbbbe88c2a"
+    "revision": "66b9d6472c7905083038a10d1eb1a9c9"
   }, {
     "url": "magnesiumhydroxide/index.html",
-    "revision": "64f00e4aa90329bbf42def3738e9fd1e"
+    "revision": "89b7a8ab84b092aec00395b05fd79692"
   }, {
     "url": "menopause/index.html",
-    "revision": "81aa3d63658bc4c36d6cbc977f5bd52e"
+    "revision": "4ccb3a66e68b231edce134422896313f"
   }, {
     "url": "menorrhagia/index.html",
-    "revision": "edfd6b6d690e420e8754ea846ca40a77"
+    "revision": "2fb9f4163ef8e781aee550612b120cee"
   }, {
     "url": "metoclopramide/index.html",
-    "revision": "b662e2a37193fb6513875a927e22fdd2"
+    "revision": "b157c818c1873991e87495b112e74531"
   }, {
     "url": "migraine/index.html",
-    "revision": "28f44b856d82bff68b286afd25c19e64"
+    "revision": "62b503fa8c6924242f758d9b7abb1f47"
   }, {
     "url": "miliaria-rubraitching-due-to-heat-in-summer/index.html",
-    "revision": "c541813686b2e62204c3ddf6525ec563"
+    "revision": "d4042b63a412d38414e4c2a391b5ccc3"
   }, {
     "url": "montelukast/index.html",
-    "revision": "e9f9a51ad1200fc48d94621cda2f7971"
+    "revision": "6b7e77790cdc5461f442e4868c77a3dd"
   }, {
     "url": "motion-sickness/index.html",
-    "revision": "ab730d2d41141f83138fdc308848ba6c"
+    "revision": "4badc1dea625a56411b632a5e249f423"
   }, {
     "url": "nasal-congestion/index.html",
-    "revision": "f9ab78f504ba4234c5de73c71e1e0216"
+    "revision": "c9f9b8061a2ef21b667b2e1dce563113"
   }, {
     "url": "neck-pain/index.html",
-    "revision": "4e7bc0f52333d5da332768817022d72b"
+    "revision": "0e112ef03a8c785e26a3c7d6d7270cef"
   }, {
     "url": "nutritionaliron-deficiency-anemia/index.html",
-    "revision": "d7de523183c02c3a5ca9723b8fecbfe3"
+    "revision": "170f5aba6781a74f76c51e11eac2a2be"
   }, {
     "url": "ondansetron/index.html",
-    "revision": "a7482e3741870b12677ae6bfdb02c99d"
+    "revision": "35db57d578bda8a2798cdfc220914abb"
   }, {
     "url": "opoid-analgesics/index.html",
-    "revision": "17273d77b86ed807c52c125876fcf0b3"
+    "revision": "01cef75e022a6fd204d3c874ba6bc306"
   }, {
     "url": "oral-candidiasis/index.html",
-    "revision": "44515503bfa3a36bb3c53eb20eec49b0"
+    "revision": "1f996ce8c7695a481326495ee1b23c34"
   }, {
     "url": "otalgia-wax-boil/index.html",
-    "revision": "918e7a1c565388b4e2818ed65d26c294"
+    "revision": "0be8838d3e50160f3e9df4e6ef278b89"
   }, {
     "url": "oxymetazoline/index.html",
-    "revision": "ab0209cb1ea6dda70e0be642ebdc17a2"
+    "revision": "fe9aa236f074d1a3e9d0ba182d3dc5d6"
   }, {
     "url": "pain-of-muscle-spasm/index.html",
-    "revision": "9151cda62f073015ee0609461ff0bfee"
+    "revision": "6b119e90b4bbaaf6fbc19ed924322e8f"
   }, {
     "url": "painful-anal-fissure/index.html",
-    "revision": "f0d5f257f0245c81235792f04e9e99e8"
+    "revision": "a274f628fae229967a13debf08d0730e"
   }, {
     "url": "pediculosislice/index.html",
-    "revision": "d3df13a2336961e2f7735033bef0f10d"
+    "revision": "fdd447e0ba7d4ab7c51b2bfc947acc6f"
   }, {
     "url": "phenylephrine/index.html",
-    "revision": "9534eda4a4ee765ebcf64143c683df2b"
+    "revision": "ce226646fc41280280429169c9f59231"
   }, {
     "url": "postponement-of-periods/index.html",
-    "revision": "baa9fa677f22d81137238f213b57a035"
+    "revision": "8f4c8378c73f84a683b5322c54d9967f"
   }, {
     "url": "prochlorperazine/index.html",
-    "revision": "67f37529409f058b5f527ea5e2b7124f"
+    "revision": "d8be2957782953f64f5c3f33a3f57ca3"
   }, {
     "url": "registerSW.js",
-    "revision": "af6cf30840a7d6d71b6f0be63877ad97"
+    "revision": "23a4cc195ce27d870f89c799d00bf447"
   }, {
     "url": "ring-wormtinea/index.html",
-    "revision": "29dcbdf68e191e3ce99511a318f5dc79"
+    "revision": "ade78e99026749819dca9e092a357046"
   }, {
     "url": "robots.txt",
     "revision": "fa1ded1ed7c11438a9b0385b1e112850"
   }, {
     "url": "scabies/index.html",
-    "revision": "263736e69026f3d543b53e743aec7464"
+    "revision": "28f10cf9e8cc95f8d0724af4889e72fe"
   }, {
     "url": "screenshot.png",
     "revision": "3e94d92cb825f0979693ac59d03006e2"
   }, {
     "url": "seasonal-allergic-rhinitis-758/index.html",
-    "revision": "9e3f7ab475eb8c278dd3bcac4e680ee3"
+    "revision": "2c71485706f49627cff885b2df6f8648"
   }, {
     "url": "shivering/index.html",
-    "revision": "7edca01e98107b9b31f87bf83e2c5194"
+    "revision": "bc25d532f153eb3a628bcf8295969b05"
   }, {
     "url": "simethicone/index.html",
-    "revision": "cfe0029fe8d0209b5ec9ec35a041e9a1"
+    "revision": "c2daf363707d47a913458b9a6efaa5bd"
   }, {
     "url": "simple-allergic-conjuctivitis/index.html",
-    "revision": "eae2bee6c4da1029961cd8a34ef1342f"
+    "revision": "0e024c64a79cb7a9b360859e602590ef"
   }, {
     "url": "sinusitis/index.html",
-    "revision": "2e3c605e0570741e3699d1092a80aee8"
+    "revision": "d11e8c0601fe6f79412965f0d7cf2a1e"
   }, {
     "url": "sore-throat/index.html",
-    "revision": "18deedb3207d83a17420cfe5773ae812"
+    "revision": "c00cc5ba8b4f379c14473e63b0db17a0"
   }, {
     "url": "tab-cetrizine/index.html",
-    "revision": "fc3edf0fe71dcdc98c2e87c7d1ab8a3a"
+    "revision": "aa5b98e6d8cf17167d65b732f706c2a0"
   }, {
     "url": "tab.aceclofenac/index.html",
-    "revision": "3060ef5ac9957bafa3764f8683db404c"
+    "revision": "73ea8b7523c01803ea8b733184fd88c1"
   }, {
     "url": "tab.chlorpheniraminemaleate/index.html",
-    "revision": "db3aaf4262630ca9608207a5833ac73b"
+    "revision": "ebf45c3445a2a8a16a153cc9826a5102"
   }, {
     "url": "tab.cinnarizine/index.html",
-    "revision": "726e093205fc82494a5833cfcb57bb7c"
+    "revision": "62638fdb4cb0e411e998be7b13ca8f33"
   }, {
     "url": "tab.diclofenac/index.html",
-    "revision": "2c0da98336ff92d3057f9d06d17b5957"
+    "revision": "aebf8e0a385762b775eba5c441374a69"
   }, {
     "url": "tab.dicyclomine/index.html",
-    "revision": "b280b92681a52a8799ad6c70d721b304"
+    "revision": "b053b5fa2ca17735324b92b5bd775709"
   }, {
     "url": "tab.dimenhydrinate/index.html",
-    "revision": "2cf771b54d60ef317487a31d6349d465"
+    "revision": "32c8ca435c1b15849f38fafa336e574d"
   }, {
     "url": "tab.fexofenadine/index.html",
-    "revision": "5af31025037b52f6a13f076d4cb8e359"
+    "revision": "d1c2c21411b7f02735491a63d7dbc177"
   }, {
     "url": "tab.hyoscinebutylbromide/index.html",
-    "revision": "8c689e0a1c36b59845992d0b0449c51e"
+    "revision": "1bac82e2e75a158d6059419adcc774ce"
   }, {
     "url": "tab.ibuprofen/index.html",
-    "revision": "983884ff58bae8fbe76c53f6d26feba5"
+    "revision": "162bc0286c10970c556c2f29193a092d"
   }, {
     "url": "tab.levocetrizine/index.html",
-    "revision": "fa87003f6172edff244ece86bd02bf53"
+    "revision": "46b5011e0ea257d289338db502e5e0ca"
   }, {
     "url": "tab.mefenamicacid/index.html",
-    "revision": "2fe1143dfb1d1e28b24e369f99b480b6"
+    "revision": "41c67e3b38c614ddf68a40bea03a8075"
   }, {
     "url": "tab.pantoprazole/index.html",
-    "revision": "341c7c2395e25dc8064d4664c91544a6"
+    "revision": "3fbdf759053ead34b1b75d081401753e"
   }, {
     "url": "tab.paracetamol/index.html",
-    "revision": "672acc2e3b6d1f53944472f8448eb60c"
+    "revision": "0b02ac8a591a6f1862fd65a2cd2c383c"
   }, {
     "url": "tab.paracetamol+phenylephrine+chlorpheniraminemaleate/index.html",
-    "revision": "a695755218c4027b69270218cd5d175b"
+    "revision": "373a2897f9b6a939540c85c189ea615c"
   }, {
     "url": "tab.pentazocin/index.html",
-    "revision": "2b23695786cac70576d875bd72a429b5"
+    "revision": "1c18f8f583b3298456083b0d84a7dd4e"
   }, {
     "url": "tab.pheniraminemaleate/index.html",
-    "revision": "3f6e7fe08e7cd953ff290c2d52a1463d"
+    "revision": "683acc5f874589a31ec41c3e64b548af"
   }, {
     "url": "tab.promethazinetheoclate/index.html",
-    "revision": "eaef5f955186be8622971646efefa068"
+    "revision": "b0bfb3b57963efdee8a642ceb834b965"
   }, {
     "url": "tab.rabeprazole/index.html",
-    "revision": "bb88327e1d3370ccbdee891b71f20bbe"
+    "revision": "61b1b44838b05f767681aa53060234a1"
   }, {
     "url": "tab.ranitidine/index.html",
-    "revision": "de529604d19a5195a21897f86529f006"
+    "revision": "4dfddd0efb9299ae7fff5c50a39caa8e"
   }, {
     "url": "tab.tramadol/index.html",
-    "revision": "97a99a0ca5a0a7dcc910095ee0fe9886"
+    "revision": "87e6bc7c7cbf149333e843b357ad6b94"
   }, {
     "url": "terbutaline/index.html",
-    "revision": "c0d8c4448ff10a2ae9af3c6e4eeb4a3b"
+    "revision": "fe1685e850f734fdd85547549af1f442"
   }, {
     "url": "toothache/index.html",
-    "revision": "472af69f93c6475099948321a657f737"
+    "revision": "e4727d92a8c110013ccb6325ea54aaa8"
   }, {
     "url": "utiburning-micturation/index.html",
-    "revision": "12bd0e25d28e4a2a1e79d1bc405747f8"
+    "revision": "d5dea92a5db2d4eee16c2bbec27ef850"
   }, {
     "url": "vertigo/index.html",
-    "revision": "31e4fac9d2dedd6a5fd93ebbfb0846e9"
+    "revision": "f5fb12028934d3050c1b6f9678a28baa"
   }, {
     "url": "vitamins+minerals/index.html",
-    "revision": "2fc9f505214e45bde497e8c75b08ccd3"
+    "revision": "ecb991419284126ae964a05346e1cd43"
   }, {
     "url": "vomiting/index.html",
-    "revision": "b813e07e259b82d684034f78bbe831eb"
+    "revision": "b4b34dec9f5ac2a526955abf8221f193"
   }, {
     "url": "xylometazoline/index.html",
-    "revision": "9e1668a1e490d16f0e0bf78106278c90"
+    "revision": "d67f13612df9ff9f4221eddeb9666610"
   }, {
-    "revision": "b099bee78c9b8efee1f7e975ee19d1a8",
+    "revision": "bd33de16fb751d855fe4617e28828f05",
     "url": "abdominal-pain"
   }, {
-    "revision": "6354ab9629cd74481508f1d05be6da71",
+    "revision": "dbd6e1500c37b1e853fe9355312b4757",
     "url": "acetylcysteine"
   }, {
-    "revision": "e5c0c6cb6df1fc546985c9fbbc96d6f7",
+    "revision": "dd1a2c4a8151e09f38472031bdb62566",
     "url": "acne-vulgaris"
   }, {
-    "revision": "35d62cb5a61b31f9982dc70a485392fa",
+    "revision": "3659a07065707f6c0e7dec19b1210aaf",
     "url": "allergy"
   }, {
-    "revision": "f2e8438f0f869da80cadc13656fbde63",
+    "revision": "5f59a46b23e6538d9b867fac32ecc3a6",
     "url": "aluminiumhydroxide"
   }, {
-    "revision": "cb23f0fb3896389cd11e511d11039a30",
+    "revision": "08ea4b3b5b954c9851f2f80a106f2443",
     "url": "ambroxol"
   }, {
-    "revision": "10a1a3c7da4d1cd5a5e2e9dd0a73cb6d",
+    "revision": "21a2e35b28d035921680b3c8d7718fe8",
     "url": "anal-itching"
   }, {
-    "revision": "d2e03f917bc8da8eb4c17e8ef096668d",
+    "revision": "3bd9aa71eba0fe86ac0262b482e5e168",
     "url": "analgesics-nsaids"
   }, {
-    "revision": "4f0bd92a794a283e79fcd4740692f1c6",
+    "revision": "ef508b7dfd9a675f4c69d2f2416d040d",
     "url": "anorexia"
   }, {
-    "revision": "f69f02f31c4bcfb669dfd24f6ffc749b",
+    "revision": "7301b698ad014f5d4e467a1ab2582c2f",
     "url": "antacids"
   }, {
-    "revision": "6f81b4775a3be9a3059a401e72f59b9c",
+    "revision": "416be0163b626324c58de3c54bfbf99d",
     "url": "antibiotics-in-children"
   }, {
-    "revision": "8faa11f39d51eb0c89aa6a922fa17afa",
+    "revision": "83a03082ee08d9eb378cd9ea5257b0c2",
     "url": "antibiotics"
   }, {
-    "revision": "b8a8df51c706c8e29d9682470267a12f",
+    "revision": "6c80a8c0da3c213ab091fd87e7ade8e8",
     "url": "antipyretics"
   }, {
-    "revision": "1c53ea794aa87261a5c04950c92446e5",
+    "revision": "f93057af58b86e946cd6c29be09e4c27",
     "url": "antiulcerants"
   }, {
-    "revision": "d68945857437d5c44ace45ddf14b0223",
+    "revision": "a59a7a0746df223138bb8bd4b6c9f219",
     "url": "apthous-ulcer"
   }, {
-    "revision": "24d403369525f7b97260849f327aa627",
+    "revision": "2e272625e0fd8a940add6b37b4164cbb",
     "url": "athlete's-foottinea-pedis"
   }, {
-    "revision": "c7d433226b508bca442d9f3c8da4b466",
+    "revision": "088cc1c38fabab9826c0d080180f9d9c",
     "url": "back-pain"
   }, {
-    "revision": "924339e328a652ef6b8f1c4d401a4ff3",
+    "revision": "5dc9d01c87610daf063d837c7f9b0a37",
     "url": "bitter-taste-in-mouth"
   }, {
-    "revision": "4efd4966a392d2e7d9b40a47bbae65f3",
+    "revision": "b7220b0473ab8601304c4a00aa60fee1",
     "url": "bromhexine"
   }, {
-    "revision": "43de48ae2169b91bb4c4ebe376faec57",
+    "revision": "60f902f3348e65a9a41991d24aceca67",
     "url": "c.omeprazole"
   }, {
-    "revision": "89facb73a668264c91a1ba18f47fe697",
+    "revision": "46fd672948f375efc5ca50fae59bf14c",
     "url": "caries-tooth"
   }, {
-    "revision": "46b964c55cb999af5d331face40fc132",
+    "revision": "47de603f9a192c905c88f2657a209aa1",
     "url": "chickenpoxvaricella"
   }, {
-    "revision": "b2ea47d270b4ee5b106f96a2782857a1",
+    "revision": "ebfaf7d3c341409541459ba0ac7191a9",
     "url": "chlorpheniraminemaleate"
   }, {
-    "revision": "3069bcd65d53f121c0183859422a5442",
+    "revision": "216317345ebc26f3ecfa6e927a6bb16e",
     "url": "chronic-alcoholic-with-tremors"
   }, {
-    "revision": "94445bcb6fabf8c7fc23647ded91a11e",
+    "revision": "787e0ab6a4b6f1914dea3b1cdff208bf",
     "url": "cold-179,756"
   }, {
-    "revision": "ab3a81753b8cbab2b087a0fcb4d42892",
+    "revision": "1f6d7c7651ff8a3f43e4b2cca7e1c4f9",
     "url": "cold+fever"
   }, {
-    "revision": "37329bbed5b9372cb1ca2bac6719b512",
+    "revision": "5d6c934c9ad28a455d5911c9836e10b0",
     "url": "conjuctivitis"
   }, {
-    "revision": "be4a0aa067c8efcbfabefa7920e8aa01",
+    "revision": "a87fbe1f80de2fd2422e4b97392f0557",
     "url": "constipation"
   }, {
-    "revision": "c2cf93223b91e49dc5e977c323be390e",
+    "revision": "6dc12041f8a96d3ac5811c747ecaadef",
     "url": "contact-dermatitis"
   }, {
-    "revision": "ee1a3fbead1c104a65424826611757e8",
+    "revision": "4a1e963487308419a62959e9ed6c62a7",
     "url": "convulsion-in-children"
   }, {
-    "revision": "668d6928ab1150a1e813db31e603210a",
+    "revision": "0dafac42c99d6961833fa304ee4e307c",
     "url": "corns"
   }, {
-    "revision": "00e7381dd0c52929bd0ed798af039e2c",
+    "revision": "1888261aa6d98680a59f80b7e34a8fca",
     "url": "cough-238"
   }, {
-    "revision": "c4f0752db7ed42711a820a33c1cb139d",
+    "revision": "b7faaccabf7af9721a50e5b8bd448fe4",
     "url": "crying-infant"
   }, {
-    "revision": "0ae51187b4d95e65f0c959d433bf162f",
+    "revision": "d18e5e26496cd7d067420774132c3657",
     "url": "dandruff"
   }, {
-    "revision": "0faa69ccecb2607150eb04cb00cc55d4",
+    "revision": "41ef0d1efe67fb60a3c014b4d337f0fc",
     "url": "deworming"
   }, {
-    "revision": "00424712233c7334cb7a451876a6f115",
+    "revision": "3b127f14a1ebe058e4332189b29a303d",
     "url": "dextromethorphan"
   }, {
-    "revision": "3d9496692a8e12402219243689de4bb3",
+    "revision": "a00485f3b57df4f427fcc24025686eaa",
     "url": "discharge-pv"
   }, {
-    "revision": "9b3b781b73103233a09dd70f7d17d250",
+    "revision": "0b341e15c51f05509ca29790cabd2f03",
     "url": "dog-bite-rabies"
   }, {
-    "revision": "d186245e267c04071f95ce1328c23231",
+    "revision": "41d345c904a6cc8372a2d54ef2af5024",
     "url": "domperidone"
   }, {
-    "revision": "81911a1c1009bee784694fe0f7c162e7",
+    "revision": "61dd2907206ec78d283e331701a3f069",
     "url": "doxylamine"
   }, {
-    "revision": "f21f01e19416072f086db73491e06bc4",
+    "revision": "7d67e0cba3ec24aec48676f478832208",
     "url": "drotaverine"
   }, {
-    "revision": "16556a8578dd8e754867ae3375f46403",
+    "revision": "d59c7b8a0c757761c7612e50e206f7dc",
     "url": "dysmenorrhea"
   }, {
-    "revision": "6d73443908db65988b00bfa87cef61dd",
+    "revision": "a1f18e9a863f9ad403251c7d98f1e8b5",
     "url": "epistaxis"
   }, {
-    "revision": "d70064a45b56fb0698cbd2e1847d7de0",
+    "revision": "9cfcd6bf6eee0383699b15866feb4625",
     "url": "fever"
   }, {
-    "revision": "d44ab13ed07b1e15323b954882939879",
+    "revision": "9374d3c567d4322879d9a1fd78e1c8c0",
     "url": "flatulence-continous-belching"
   }, {
     "revision": "cf2c60c067773123ae94d9b85a03452c",
     "url": "gemini"
   }, {
-    "revision": "3337fb029cb424f63c47e062f6cd1cc1",
+    "revision": "8b9f2fbdcd79ad965dc081b4c8696597",
     "url": "guaiphensin"
   }, {
-    "revision": "a6271011986f872fbc56e8b5ce7682f8",
+    "revision": "563e98118188897b7c63c891f022b62e",
     "url": "gum-abscess"
   }, {
-    "revision": "12781cfd2dcbeca49ecebd05036fdb66",
+    "revision": "cd32cdd700086e79452bd388cc3ba835",
     "url": "herpes-zoster"
   }, {
-    "revision": "23925c2f7ccf04c1c9895458757bc32b",
+    "revision": "dc1e086d0570cf852a063f58c90c5d36",
     "url": "hiccups"
   }, {
-    "revision": "314840a07384a0d16ea91a1a6ddc7207",
+    "revision": "7196208d895c1a1f459c7b39d19c83b0",
     "url": "hyperpigmentation-of-skin"
   }, {
-    "revision": "eb7cc1b36dad21ae310d1e0b8385c5fa",
+    "revision": "f0c9db63104de95277acf5b83a9a47a5",
     "url": "hypoglycemia"
   }, {
-    "revision": "5e4719d0bf66714e14deee8bbb2a234c",
+    "revision": "3f8905708d1c1f85c3b4863d8809013f",
     "url": "hypotension"
   }, {
-    "revision": "b75e51f9efeab27a7e6b240f3691a9e2",
+    "revision": "352d4af50e981f578a0bbe0fdc383d25",
     "url": "/intern"
   }, {
-    "revision": "8684f5d4844d27295791e33b7181e820",
+    "revision": "405aff22b0fcfe1a0356c96a19db27d3",
     "url": "inj.diclofenac"
   }, {
-    "revision": "28e1541d50857dae701575ae3d6e0808",
+    "revision": "3d6f00a58bd706c20e8ba8032a525aa0",
     "url": "inj.dicyclomine"
   }, {
-    "revision": "22eb7e63e21247181ce4ed750ad27edd",
+    "revision": "3a1fac1fbb98a2cf30d27fe321d0ad0b",
     "url": "inj.pantoprazole"
   }, {
-    "revision": "18ee94851766d76c6039a3216fc48ac7",
+    "revision": "25c2163c3f3f55173fbfb405978ac631",
     "url": "insomnia"
   }, {
-    "revision": "312e9ca8e1e60e7157da64dbbbe88c2a",
+    "revision": "66b9d6472c7905083038a10d1eb1a9c9",
     "url": "loose-stoolsdiarrhea"
   }, {
-    "revision": "64f00e4aa90329bbf42def3738e9fd1e",
+    "revision": "89b7a8ab84b092aec00395b05fd79692",
     "url": "magnesiumhydroxide"
   }, {
-    "revision": "81aa3d63658bc4c36d6cbc977f5bd52e",
+    "revision": "4ccb3a66e68b231edce134422896313f",
     "url": "menopause"
   }, {
-    "revision": "edfd6b6d690e420e8754ea846ca40a77",
+    "revision": "2fb9f4163ef8e781aee550612b120cee",
     "url": "menorrhagia"
   }, {
-    "revision": "b662e2a37193fb6513875a927e22fdd2",
+    "revision": "b157c818c1873991e87495b112e74531",
     "url": "metoclopramide"
   }, {
-    "revision": "28f44b856d82bff68b286afd25c19e64",
+    "revision": "62b503fa8c6924242f758d9b7abb1f47",
     "url": "migraine"
   }, {
-    "revision": "c541813686b2e62204c3ddf6525ec563",
+    "revision": "d4042b63a412d38414e4c2a391b5ccc3",
     "url": "miliaria-rubraitching-due-to-heat-in-summer"
   }, {
-    "revision": "e9f9a51ad1200fc48d94621cda2f7971",
+    "revision": "6b7e77790cdc5461f442e4868c77a3dd",
     "url": "montelukast"
   }, {
-    "revision": "ab730d2d41141f83138fdc308848ba6c",
+    "revision": "4badc1dea625a56411b632a5e249f423",
     "url": "motion-sickness"
   }, {
-    "revision": "f9ab78f504ba4234c5de73c71e1e0216",
+    "revision": "c9f9b8061a2ef21b667b2e1dce563113",
     "url": "nasal-congestion"
   }, {
-    "revision": "4e7bc0f52333d5da332768817022d72b",
+    "revision": "0e112ef03a8c785e26a3c7d6d7270cef",
     "url": "neck-pain"
   }, {
-    "revision": "d7de523183c02c3a5ca9723b8fecbfe3",
+    "revision": "170f5aba6781a74f76c51e11eac2a2be",
     "url": "nutritionaliron-deficiency-anemia"
   }, {
-    "revision": "a7482e3741870b12677ae6bfdb02c99d",
+    "revision": "35db57d578bda8a2798cdfc220914abb",
     "url": "ondansetron"
   }, {
-    "revision": "17273d77b86ed807c52c125876fcf0b3",
+    "revision": "01cef75e022a6fd204d3c874ba6bc306",
     "url": "opoid-analgesics"
   }, {
-    "revision": "44515503bfa3a36bb3c53eb20eec49b0",
+    "revision": "1f996ce8c7695a481326495ee1b23c34",
     "url": "oral-candidiasis"
   }, {
-    "revision": "918e7a1c565388b4e2818ed65d26c294",
+    "revision": "0be8838d3e50160f3e9df4e6ef278b89",
     "url": "otalgia-wax-boil"
   }, {
-    "revision": "ab0209cb1ea6dda70e0be642ebdc17a2",
+    "revision": "fe9aa236f074d1a3e9d0ba182d3dc5d6",
     "url": "oxymetazoline"
   }, {
-    "revision": "9151cda62f073015ee0609461ff0bfee",
+    "revision": "6b119e90b4bbaaf6fbc19ed924322e8f",
     "url": "pain-of-muscle-spasm"
   }, {
-    "revision": "f0d5f257f0245c81235792f04e9e99e8",
+    "revision": "a274f628fae229967a13debf08d0730e",
     "url": "painful-anal-fissure"
   }, {
-    "revision": "d3df13a2336961e2f7735033bef0f10d",
+    "revision": "fdd447e0ba7d4ab7c51b2bfc947acc6f",
     "url": "pediculosislice"
   }, {
-    "revision": "9534eda4a4ee765ebcf64143c683df2b",
+    "revision": "ce226646fc41280280429169c9f59231",
     "url": "phenylephrine"
   }, {
-    "revision": "baa9fa677f22d81137238f213b57a035",
+    "revision": "8f4c8378c73f84a683b5322c54d9967f",
     "url": "postponement-of-periods"
   }, {
-    "revision": "67f37529409f058b5f527ea5e2b7124f",
+    "revision": "d8be2957782953f64f5c3f33a3f57ca3",
     "url": "prochlorperazine"
   }, {
-    "revision": "29dcbdf68e191e3ce99511a318f5dc79",
+    "revision": "ade78e99026749819dca9e092a357046",
     "url": "ring-wormtinea"
   }, {
-    "revision": "263736e69026f3d543b53e743aec7464",
+    "revision": "28f10cf9e8cc95f8d0724af4889e72fe",
     "url": "scabies"
   }, {
-    "revision": "9e3f7ab475eb8c278dd3bcac4e680ee3",
+    "revision": "2c71485706f49627cff885b2df6f8648",
     "url": "seasonal-allergic-rhinitis-758"
   }, {
-    "revision": "7edca01e98107b9b31f87bf83e2c5194",
+    "revision": "bc25d532f153eb3a628bcf8295969b05",
     "url": "shivering"
   }, {
-    "revision": "cfe0029fe8d0209b5ec9ec35a041e9a1",
+    "revision": "c2daf363707d47a913458b9a6efaa5bd",
     "url": "simethicone"
   }, {
-    "revision": "eae2bee6c4da1029961cd8a34ef1342f",
+    "revision": "0e024c64a79cb7a9b360859e602590ef",
     "url": "simple-allergic-conjuctivitis"
   }, {
-    "revision": "2e3c605e0570741e3699d1092a80aee8",
+    "revision": "d11e8c0601fe6f79412965f0d7cf2a1e",
     "url": "sinusitis"
   }, {
-    "revision": "18deedb3207d83a17420cfe5773ae812",
+    "revision": "c00cc5ba8b4f379c14473e63b0db17a0",
     "url": "sore-throat"
   }, {
-    "revision": "fc3edf0fe71dcdc98c2e87c7d1ab8a3a",
+    "revision": "aa5b98e6d8cf17167d65b732f706c2a0",
     "url": "tab-cetrizine"
   }, {
-    "revision": "3060ef5ac9957bafa3764f8683db404c",
+    "revision": "73ea8b7523c01803ea8b733184fd88c1",
     "url": "tab.aceclofenac"
   }, {
-    "revision": "db3aaf4262630ca9608207a5833ac73b",
+    "revision": "ebf45c3445a2a8a16a153cc9826a5102",
     "url": "tab.chlorpheniraminemaleate"
   }, {
-    "revision": "726e093205fc82494a5833cfcb57bb7c",
+    "revision": "62638fdb4cb0e411e998be7b13ca8f33",
     "url": "tab.cinnarizine"
   }, {
-    "revision": "2c0da98336ff92d3057f9d06d17b5957",
+    "revision": "aebf8e0a385762b775eba5c441374a69",
     "url": "tab.diclofenac"
   }, {
-    "revision": "b280b92681a52a8799ad6c70d721b304",
+    "revision": "b053b5fa2ca17735324b92b5bd775709",
     "url": "tab.dicyclomine"
   }, {
-    "revision": "2cf771b54d60ef317487a31d6349d465",
+    "revision": "32c8ca435c1b15849f38fafa336e574d",
     "url": "tab.dimenhydrinate"
   }, {
-    "revision": "5af31025037b52f6a13f076d4cb8e359",
+    "revision": "d1c2c21411b7f02735491a63d7dbc177",
     "url": "tab.fexofenadine"
   }, {
-    "revision": "8c689e0a1c36b59845992d0b0449c51e",
+    "revision": "1bac82e2e75a158d6059419adcc774ce",
     "url": "tab.hyoscinebutylbromide"
   }, {
-    "revision": "983884ff58bae8fbe76c53f6d26feba5",
+    "revision": "162bc0286c10970c556c2f29193a092d",
     "url": "tab.ibuprofen"
   }, {
-    "revision": "fa87003f6172edff244ece86bd02bf53",
+    "revision": "46b5011e0ea257d289338db502e5e0ca",
     "url": "tab.levocetrizine"
   }, {
-    "revision": "2fe1143dfb1d1e28b24e369f99b480b6",
+    "revision": "41c67e3b38c614ddf68a40bea03a8075",
     "url": "tab.mefenamicacid"
   }, {
-    "revision": "341c7c2395e25dc8064d4664c91544a6",
+    "revision": "3fbdf759053ead34b1b75d081401753e",
     "url": "tab.pantoprazole"
   }, {
-    "revision": "672acc2e3b6d1f53944472f8448eb60c",
+    "revision": "0b02ac8a591a6f1862fd65a2cd2c383c",
     "url": "tab.paracetamol"
   }, {
-    "revision": "a695755218c4027b69270218cd5d175b",
+    "revision": "373a2897f9b6a939540c85c189ea615c",
     "url": "tab.paracetamol+phenylephrine+chlorpheniraminemaleate"
   }, {
-    "revision": "2b23695786cac70576d875bd72a429b5",
+    "revision": "1c18f8f583b3298456083b0d84a7dd4e",
     "url": "tab.pentazocin"
   }, {
-    "revision": "3f6e7fe08e7cd953ff290c2d52a1463d",
+    "revision": "683acc5f874589a31ec41c3e64b548af",
     "url": "tab.pheniraminemaleate"
   }, {
-    "revision": "eaef5f955186be8622971646efefa068",
+    "revision": "b0bfb3b57963efdee8a642ceb834b965",
     "url": "tab.promethazinetheoclate"
   }, {
-    "revision": "bb88327e1d3370ccbdee891b71f20bbe",
+    "revision": "61b1b44838b05f767681aa53060234a1",
     "url": "tab.rabeprazole"
   }, {
-    "revision": "de529604d19a5195a21897f86529f006",
+    "revision": "4dfddd0efb9299ae7fff5c50a39caa8e",
     "url": "tab.ranitidine"
   }, {
-    "revision": "97a99a0ca5a0a7dcc910095ee0fe9886",
+    "revision": "87e6bc7c7cbf149333e843b357ad6b94",
     "url": "tab.tramadol"
   }, {
-    "revision": "c0d8c4448ff10a2ae9af3c6e4eeb4a3b",
+    "revision": "fe1685e850f734fdd85547549af1f442",
     "url": "terbutaline"
   }, {
-    "revision": "472af69f93c6475099948321a657f737",
+    "revision": "e4727d92a8c110013ccb6325ea54aaa8",
     "url": "toothache"
   }, {
-    "revision": "12bd0e25d28e4a2a1e79d1bc405747f8",
+    "revision": "d5dea92a5db2d4eee16c2bbec27ef850",
     "url": "utiburning-micturation"
   }, {
-    "revision": "31e4fac9d2dedd6a5fd93ebbfb0846e9",
+    "revision": "f5fb12028934d3050c1b6f9678a28baa",
     "url": "vertigo"
   }, {
-    "revision": "2fc9f505214e45bde497e8c75b08ccd3",
+    "revision": "ecb991419284126ae964a05346e1cd43",
     "url": "vitamins+minerals"
   }, {
-    "revision": "b813e07e259b82d684034f78bbe831eb",
+    "revision": "b4b34dec9f5ac2a526955abf8221f193",
     "url": "vomiting"
   }, {
-    "revision": "9e1668a1e490d16f0e0bf78106278c90",
+    "revision": "d67f13612df9ff9f4221eddeb9666610",
     "url": "xylometazoline"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "0402dc542ee21e9ef6b099fed1674f08"
+    "revision": "81fb8cd38a60bf0d58b522f761922b96"
   }], {
     "directoryIndex": "index.html"
   });
