@@ -1,0 +1,125 @@
+---
+import data from "../intern/data/data.json";
+import { marked } from "marked";
+import Alert from '@mui/material/Alert';
+
+import "../styles/global.css";
+
+export function getStaticPaths() {
+  return data.map((item) => ({
+    params: { slug: item.title.toLowerCase().replace(/\s+/g, "-").replace(/\//g,"") },
+  }));
+}
+
+const { slug } = Astro.params;
+const item = data.find((i) => i.title.toLowerCase().replace(/\s+/g, "-").replace(/\//g,"") === slug);
+
+if (!item) {
+  throw new Error("Item not found");
+}
+
+// Custom renderer for links
+const renderer = {
+  link(href, title, text) {
+    if (href) {
+      if (href.startsWith("myapp://")) {
+        const targetTitle = href.replace("myapp://", "");
+        const slug = targetTitle.toLowerCase().replace(/\s+/g, "-").replace(/\//g,"");
+        return `<a href="../${slug}">${text}</a>`;
+      }
+    }
+    return `<a href="${href}" title="${title || ''}">${text}</a>`;
+  },
+};
+
+// Integrate renderer with marked
+marked.use({ renderer });
+
+const content = marked.parse(item.content);
+---
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta name="theme-color" content="#2196F3">
+  <script src="../pwa.ts"></script>
+  <style>
+    /* General Styles */
+   
+
+ /* Glass Effect for the Navbar */
+ .navbar {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease-in-out;
+    }
+
+    .navbar:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 20px;
+      color: white;
+      backdrop-filter: blur(10px);
+      background: rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: background 0.3s ease-in-out;
+    }
+
+    h1:hover {
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+   
+    /* Add fade-in effect for the article content */
+    article {
+      animation: fadeIn 1s ease-in;
+    }
+
+    /* Fade-in animation */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Styling for links inside the markdown content */
+    article a {
+      color: #4CAF50;
+      text-decoration: underline;
+    }
+
+    article a:hover {
+      color: #388E3C;
+    }
+
+  </style>
+</head>
+<body class="bg-gray-900 text-white p-8">
+   
+  <!-- Navbar with Glass Effect -->
+  <nav class="navbar flex justify-between items-center p-4 rounded-lg shadow-md">
+    <a class="text-xl font-semibold text-white">{item.title}</a>
+     <!-- Back to Home Button -->
+  <a href="../">Back to Home</a>
+  </nav>
+
+  <!-- Info Alert -->
+  <Alert>This information is for educational purposes.</Alert>
+  
+  <!-- Article content -->
+  <article class="prose dark:prose-invert
+  prose-h1:font-bold prose-h1:text-xl
+  prose-a:text-pink-600 prose-p:text-justify prose-img:rounded-xl
+" set:html={content}></article>
+
+ 
+</body>
+</html>

@@ -1,11 +1,177 @@
 ---
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import App from '../intern/App.tsx';
+import data from "../intern/data/data.json";
+import Button from "@mui/material/Button";
+import InputBase from '@mui/material/InputBase';
+import { Typography } from "@mui/material";
+import Alert from '@mui/material/Alert';
+import CardWrap from "../intern/components/Card";
+import Box from "@mui/material/Box";
+import "../styles/global.css";
+import { alpha, styled } from '@mui/material/styles';
+import { pwaInfo } from 'virtual:pwa-info';
+const BootstrapInput = styled(InputBase)(({ theme }) => ({
+  'label + &': {
+    marginTop: theme.spacing(3),
+  },
+  '& .MuiInputBase-input': {
+    borderRadius: 4,
+    backgroundColor: '#F3F6F9',
+    border: '1px solid',
+    borderColor: '#E0E3E7',
+    fontSize: 16,
+    padding: '10px 12px',
+    transition: theme.transitions.create([
+      'border-color',
+      'background-color',
+      'box-shadow',
+    ]),
+    fontFamily: [
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+    '&:focus': {
+      boxShadow: `${alpha(theme.palette.primary.main, 0.25)} 0 0 0 0.2rem`,
+      borderColor: theme.palette.primary.main,
+    },
+    ...theme.applyStyles('dark', {
+      backgroundColor: '#1A2027',
+      borderColor: '#2D3843',
+    }),
+  },
+}));
+function slugify(title) {
+  return title.toLowerCase().replace(/\s+/g, "-").replace(/\//g,"");
+}
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta name="theme-color" content="#2196F3">
+  { pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} /> }
+  <script src="../pwa.ts"></script>
+  <style>
+    /* Glass Effect for the Navbar */
+    .navbar {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease-in-out;
+    }
+
+    .navbar:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Search Box Animation */
+    .search-box input {
+      transition: all 0.3s ease;
+    }
+
+    .search-box input:focus {
+      border-color: #4CAF50;
+    }
+
+    /* Hover Effect for List Items - Glass Lighting Effect */
+    .item {
+      position: relative;
+      transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    }
+
+    .item::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+      border-radius: inherit;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      pointer-events: none;
+    }
+
+    .item:hover {
+      background-color: rgba(45, 55, 72, 0.8);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .item:hover::after {
+      opacity: 1;
+    }
+
+    /* Fade-in animation for list items */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-in;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white p-8">
+  
+  <!-- Navbar with Glass Effect -->
+  <nav class="navbar flex justify-between items-center p-4 rounded-lg shadow-md">
+    <a class="text-xl font-semibold text-white">Intern</a>
+    <button class="p-2 rounded-full hover:bg-gray-700 transition">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+      </svg>
+    </button>
+  </nav>
+  
+  <!-- Search Box & AI Button -->
+  <div class="flex p-4 search-box">
+    <input id="search" type="text" placeholder="Search items..." class="flex-grow w-screen p-3 bg-gray-800 text-white placeholder-white rounded-lg focus:ring-2 focus:ring-blue-500 outline-none m-2">
+    <a href="./gemini" class="m-2 px-4 placeholder-gray-400 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Ask AI</a>
+  </div>
+  
+  <!-- Description -->
+  <p class="mt-4 text-gray-400">Below are different medicines/cures for different medical issues. Click on each to get an overview. Use the search box to search from the below list. Use the "Ask AI" button to ask Gemini about the data here.</p>
+  
+  <!-- Info Alert -->
+  <Alert>This information is for educational purposes.</Alert>
+  
+  <!-- Items List -->
+  <ul id="item-list" class="">
+    {data.map((item, index) => (
+      <li class={`item bg-gray-800 p-4 rounded-lg shadow-md m-4 fade-in`} style={{ animationDelay: `${index * 0.1}s` }}>
+        <a href={`./${slugify(item.title)}/`} class="block">
+          {item.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const searchInput = document.getElementById("search");
+      const items = document.querySelectorAll(".item");
+  
+      searchInput.addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase();
+        items.forEach((item) => {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? "block" : "none";
+        });
+      });
+    });
+  </script>
+</body>
+</html>
