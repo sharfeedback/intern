@@ -5,13 +5,14 @@ import react from '@astrojs/react';
 import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
-  base: "/intern",
+  site: 'https://sharfeedback.github.io',
+  base: "intern",
   outDir: "./intern",
   integrations: [
     react(), 
     AstroPWA({
       mode: 'development',
-      base: '/intern',
+      base: 'intern/',
       scope: '/',
       // includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
