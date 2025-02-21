@@ -78,25 +78,25 @@ define(['./workbox-ab4816ec'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "_astro/_slug_.astro_astro_type_script_index_0_lang.CyVq5DoR.js",
+    "url": "astro/_slug_.astroastro_type_script_index_0_lang.CyVq5DoR.js",
     "revision": null
   }, {
-    "url": "_astro/_slug_.juwcgmNr.css",
+    "url": "astro/_slug_.juwcgmNr.css",
     "revision": null
   }, {
-    "url": "_astro/AISearch.B_B40E0h.js",
+    "url": "astro/AISearch.B_B40E0h.js",
     "revision": null
   }, {
-    "url": "_astro/client-v17.C5iNQFmU.js",
+    "url": "astro/client-v17.C5iNQFmU.js",
     "revision": null
   }, {
-    "url": "_astro/index.astro_astro_type_script_index_1_lang.BFCWBPmA.js",
+    "url": "astro/index.astroastro_type_script_index_1_lang.BFCWBPmA.js",
     "revision": null
   }, {
-    "url": "_astro/index.BYcfAzl2.js",
+    "url": "astro/index.BYcfAzl2.js",
     "revision": null
   }, {
-    "url": "_astro/workbox-window.prod.es5.NU22iWMg.js",
+    "url": "astro/workbox-window.prod.es5.NU22iWMg.js",
     "revision": null
   }, {
     "url": "abdominal-pain/index.html",
